@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:wght@600&family=Questrial&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+#home {
+    min-height: 100vh;
+}
+
+#home #fundo {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: -1;
+}
+
+#home nav {
+    background-color: rgb(49, 49, 49);
+    position: fixed;
+    z-index: 9999;
+    right: 0px;
+    left: 0px;
+}
+
+#home ul {
+    width: 100%;
+    height: auto;
+    margin: 0%;
+}
+
+#home ul li {
+    list-style: none;
+    font-family: 'Questrial', sans-serif;
+    font-size: 120%;
+    display: inline-block;
+    margin: 20px;
+}
+
+#home li:hover {
+    transform: scale(1.1);
+    transition: all;
+}
+
+#home li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#home aside img {
+    position: absolute;
+    width: 299px;
+    height: auto;
+    margin: 111px 0px 0px 0px;
+    opacity: 100%;
+    z-index: 3;
+}
+
+#home h1 {
+    font-size: 41px;
+    color: rgb(163, 208, 235);
+    font-family: 'Bebas Neue', cursive;
+    position: absolute;
+    top: 130px;
+    left: 712px;
+}
+
+#home #textohome {
+    width: 45%;
+    height: 40%;
+    margin: 240px 0px 0px 540px;
+    position: absolute;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 21px;
+    border: 1px solid rgb(163, 208, 235);
+    padding: 10px;
+}
+
+#home #github {
+    width: 70px;
+    height: auto;
+    position: absolute;
+    top: 280px;
+    left: 1210px;
+}
+
+#home #whatsapp {
+    width: 60px;
+    height: auto;
+    position: absolute;
+    top: 390px;
+    left: 1220px;
+}
+
+#vidapessoal {
+    min-height: 100vh;
+}
+
+#vidapessoal #fundo {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: -1;
+}
+
+#vidapessoal h1 {
+    display: inline-block;
+    font-size: 41px;
+    color: rgb(163, 208, 235);
+    font-family: 'Bebas Neue', cursive;
+    position: absolute;
+    right: 0;
+    left: 0;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#vidapessoal #textopessoal {
+    display: inline-block;
+    width: 45%;
+    height: 40%;
+    position: absolute;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 17px;
+    border: 1px solid rgb(163, 208, 235);
+    padding: 10px;
+    right: 0;
+    left: 0;
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 350px;
+}
+
+#vidaprofissional {
+    min-height: 100vh;
+}
+
+#vidaprofissional #fundo {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: -1;
+}
+
+#vidaprofissional h1 {
+    display: inline-block;
+    font-size: 41px;
+    color: rgb(163, 208, 235);
+    font-family: 'Bebas Neue', cursive;
+    position: absolute;
+    right: 0;
+    left: 0;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#vidaprofissional #textoprofissional {
+    display: inline-block;
+    width: 45%;
+    height: 40%;
+    position: absolute;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 22px;
+    border: 1px solid rgb(163, 208, 235);
+    padding: 10px;
+    right: 0;
+    left: 0;
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 350px;
+}
+
+
+#tecnologias {
+    min-height: 100vh;
+}
+
+#tecnologias #fundo {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: -1;
+}
+
+#tecnologias h1 {
+    display: inline-block;
+    font-size: 41px;
+    color: rgb(163, 208, 235);
+    font-family: 'Bebas Neue', cursive;
+    position: absolute;
+    right: 0;
+    left: 0;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#tecnologias #textotecnologias {
+    display: inline-block;
+    width: 45%;
+    height: 40%;
+    position: absolute;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 23px;
+    border: 1px solid rgb(163, 208, 235);
+    padding: 10px;
+    right: 0;
+    left: 0;
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 350px;
+}
